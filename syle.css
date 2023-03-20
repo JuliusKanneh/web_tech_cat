@@ -1,0 +1,251 @@
+.container {
+    position: relative;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1;
+    width: 87%;
+    /* border: 1px solid black; */
+    border-radius: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 3em;
+    padding: 1em;
+    box-shadow: 0px 0px 5px 2px #dddcdc;
+}
+  
+.overlay .first-div{
+    color: #000;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+  
+.overlay .second-div{
+    color: #000;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 35em;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 1em solid white;
+    width: 90%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 0px;
+    gap: 12px;
+    background: #3B65DB;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    z-index: 1;
+}
+
+.overlay1 .ride{
+    box-sizing: border-box;
+    color: #547CEF;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 20px;
+
+    width: 111px;
+    height: 44px;
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 92px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 1em 2em;
+}
+
+.overlay1 .rental{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 20px;
+
+    width: 125px;
+    height: 44px;
+    margin-top: -4.4em;
+    margin-left: 11em;
+    background: #547CEF;
+    border-radius: 92px;
+    color: #fff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.overlay1 .rental span{
+    font-size: 1.2em;
+    padding-top: 0.1em;
+}
+
+.overlay1 .search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0px;
+    gap: 8px;
+
+    width:85%;
+    height: 49px;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 0.5em;
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.overlay1 .search-bar .fa-solid{
+    margin-left: 1em;
+    color: #314FA3;
+}
+
+.overlay1 .search-bar .vertical-bar{
+    font-weight: bold;
+    font-size: 2em;
+    color: #314FA3;
+}
+
+.overlay1 .search-bar .now{
+    margin-right: 1em;
+    font-size: 1.3em;
+    color: #3B65DB;
+}
+
+.overlay1 .search-bar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+    font-size: 2em;
+    color: #314FA3;
+}
+
+.overlay1 .search-bar input::placeholder{
+    color: #314FA3;
+}
+
+.overlay1 .rental i{
+    padding-right: 0.5em;
+    padding-top: 0.2em;
+    color: #fff;
+
+}
+.overlay1 .ride i{
+    padding-right: 0.5em;
+    padding-top: 0.2em;
+}
+
+.overlay1 .ride span{
+    font-size: 1.2em;
+}
+
+.overlay1 .inner-txt{
+    margin-left: 2em;
+    margin-top: 0.5em;
+    color: #fff;
+}
+
+.overlay1 hr{
+    width: 85%;
+    height: 0px;
+    border: 1px dashed #4C76ED;
+    align-self: stretch;
+}
+
+.overlay1 .inner-txt .txt-content{
+   margin-left: 0.7em;
+}
+
+.overlay1 .inner-div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 85%;
+    margin-left: 2em;
+    margin-top: 1.5em;
+}
+
+.overlay1 .inner-div div{
+    border: 1px solid white;
+    border-width: 0.1px;
+    border-radius: 2em;
+    width: 6em;
+    height: 2em;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.overlay1 .inner-div div i{
+    padding:0.5em;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 32em;
+    margin-left: 36px;
+    width: 87%;
+    height: 45px;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 8px;
+    gap: 8px;
+    z-index: 2;
+
+    background: #38B763;
+    border-radius: 24px 24px 0px 0px;
+
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.overlay2 .coby{
+    color: #fff;
+    font-size: 2.7em;
+    font-weight: bold;
+}
+img {
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
